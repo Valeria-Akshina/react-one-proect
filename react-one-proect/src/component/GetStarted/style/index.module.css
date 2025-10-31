@@ -1,0 +1,21 @@
+.container {
+  max-width: 1376px;
+
+  display: flex;
+  padding: 0 32px 0 32px;
+  gap: 800px;
+}
+
+
+.container a {
+  text-decoration: underline;
+  white-space: nowrap;
+
+  display: flex;
+  align-items: end;
+}
+
+h1{
+  font-size: 72px;
+  font-weight: 200;
+}
