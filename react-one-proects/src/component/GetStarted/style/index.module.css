@@ -52,5 +52,11 @@
 .containerTwoone img {
   width: 329px;
   height: 493px;
-  padding-top: 232px;
+  padding-top: 220px;
+}
+
+.containerTwotwo img {
+  width: 678px;
+  height: 809px;
+  padding-top: 30px;
 }

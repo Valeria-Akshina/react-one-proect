@@ -19,7 +19,7 @@ export const GetStarted = () => {
                 найти производственное <br /> решение любой задумки.</p>
                 <img src={oneImg} alt="#" />
             </div>
-            <div>
+            <div className={styless.containerTwotwo}>
                 <img src={twoImg} alt="#" />
             </div>
           </div>
