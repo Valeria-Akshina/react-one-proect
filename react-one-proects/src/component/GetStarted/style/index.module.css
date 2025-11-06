@@ -1,0 +1,56 @@
+.container {
+  display: flex;
+  justify-content: space-between; /* раскидывает по краям */
+  align-items: center; /* выравнивает по вертикали */
+  padding: 0 32px;
+  width: 100%;
+}
+
+.oneContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.oneContainer h1{
+  font-size: 72px;
+  font-weight: 200;
+}
+
+.twoContainer{
+  margin-left: auto;
+  margin-top: auto;
+  padding-right: 62px;
+}
+
+.twoContainer a {
+  text-decoration: underline;
+  display: block; /* или inline-block */
+  width: 100%;
+  text-align: left; /* или right, center */
+}
+
+.containerTwo{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 32px;
+}
+
+.containerTwoone{
+  display: flex;
+  flex-direction: column;
+}
+
+.containerTwoone p {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+  color: #212529;
+}
+
+.containerTwoone img {
+  width: 329px;
+  height: 493px;
+  padding-top: 232px;
+}

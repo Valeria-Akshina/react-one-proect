@@ -1,0 +1,29 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  color: #212529;
+  padding: 12px 32px 40px 32px;
+}
+
+img {
+  width: 70px;
+  height: 74.375px;
+}
+
+.links  {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+a {
+  text-decoration: none;
+  color: #212529;
+}
+
+.phoneNumber {
+  font-size: 19px;
+}
