@@ -1,4 +1,37 @@
 .secodTwo {
   display: flex;
   justify-content: center;
+  padding: 120px 32px 0 32px;
+}
+
+.heading {
+  padding-right: 120px;
+  margin-left: auto;
+}
+
+.heading h2 {
+  font-family: Helvetica;
+  font-weight: 400;
+  font-size: 48px;
+}
+
+.paragraph{
+  padding-bottom: 44px;
+}
+
+.aboutInfoItem {
+  line-height: 0%;
+  padding-bottom: 24px;
+}
+
+.aboutInfoItem h3 {
+  font-size: 36px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.aboutInfoItem p {
+  padding-top: 2px;
+  line-height: 1.5;
+  font-size: 16px;
 }

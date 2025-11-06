@@ -1,9 +1,8 @@
 .container {
   display: flex;
-  justify-content: space-between; /* раскидывает по краям */
-  align-items: center; /* выравнивает по вертикали */
+  justify-content: space-between;
+  align-items: center;
   padding: 0 32px;
-  width: 100%;
 }
 
 .oneContainer {
@@ -24,9 +23,9 @@
 
 .twoContainer a {
   text-decoration: underline;
-  display: block; /* или inline-block */
+  display: block;
   width: 100%;
-  text-align: left; /* или right, center */
+  text-align: left;
 }
 
 .containerTwo{
