@@ -1,0 +1,18 @@
+.component {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.component h2 {
+  font-size: 48px;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+}
