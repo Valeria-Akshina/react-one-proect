@@ -1,9 +1,10 @@
 import { Header } from './component/Header/index.jsx';
 import { Main } from './component/Main/index.jsx';
 import { OurExperience } from './component/OurExperience/index.jsx'
+import { Reviews } from './component/Reviews/index.jsx';
+import { USERS } from './component/User/user.js';
 import './fonts/index.jsx';
 import './App.css';
-import { Reviews } from './component/Reviews/index.jsx';
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
       <Header/>
       <Main/>
       <OurExperience/>
-      <Reviews/>
+      <Reviews users={USERS} />
     </div>
   );
 }
