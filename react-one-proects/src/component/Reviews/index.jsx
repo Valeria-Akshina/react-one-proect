@@ -15,8 +15,8 @@ export const Reviews = ({ users }) => {
         {users.map((user, index) => (
           <div key={user.id} className={styless.section}>
             <img src={icon} alt="#" />
-            <p>{user.name} {user.surname}</p>
-            <p>{reviews[index]}</p>
+            <p className={styless.testimonial}>{user.name} {user.surname}</p>
+            <p className={styless.testimonialText}>{reviews[index]}</p>
           </div>
         ))}
       </div>

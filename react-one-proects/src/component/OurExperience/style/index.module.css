@@ -1,23 +1,26 @@
 .secodTwo {
   display: flex;
   justify-content: center;
-  padding: 120px 32px 0 32px;
+  margin-top: 120px;
+  gap: 135px;
 }
 
 .heading {
-  padding-right: 120px;
-  margin: 0;
+  width: 562px;
+  height: 198px;
 }
 
 .heading h2 {
   font-family: Helvetica;
   font-weight: 400;
   font-size: 48px;
-  margin: 0;
 }
 
 .paragraph{
   padding-bottom: 44px;
+
+  width: 678px;
+  height: 208px;
 }
 
 .aboutInfoItem {

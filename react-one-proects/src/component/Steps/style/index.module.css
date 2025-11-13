@@ -1,0 +1,46 @@
+.mainSect {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 140px;
+    margin-top: 120px;
+}
+
+.sectionOne {
+    width: 562;
+    height: 66;
+}
+
+.sectionTwo {
+    width: 678px;
+}
+
+.textH2 {
+    font-size: 48px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.line {
+    width: 678px;
+    border: 1px solid #000000;
+}
+
+.block {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.block h2 {
+    width: 328px;
+    height: 100px;
+
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.block p {
+    font-size: 16px;
+    font-weight: 400;
+}

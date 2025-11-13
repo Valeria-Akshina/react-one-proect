@@ -1,11 +1,9 @@
 .header {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center;
   justify-content: space-between;
   color: #212529;
-  padding: 12px 32px 40px 32px;
+  padding: 12px 0 40px 0;
 }
 
 img {
@@ -22,8 +20,15 @@ img {
 a {
   text-decoration: none;
   color: #212529;
+
+  padding-left: 861px;
 }
 
 .phoneNumber {
   font-size: 19px;
+}
+
+.phoneNumber h6 {
+  margin-top: 0;
+  padding-top: 0;
 }

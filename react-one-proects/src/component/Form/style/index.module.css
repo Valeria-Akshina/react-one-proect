@@ -1,0 +1,80 @@
+form {
+    display: flex;
+    flex-direction: row;
+
+    margin-top: 120px;
+    gap: 136px;
+}
+
+.blockOne img {
+    width: 562px;
+    height: 566px;
+}
+
+.blockTwo {
+    display: flex;
+    flex-direction: column;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+
+    margin-bottom: 72px;
+}
+
+.text h2 {
+    font-size: 48px;
+    font-weight: 400;
+
+    margin: 0;
+    padding-bottom: 32px;
+}
+
+.text p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.inputForm {
+    display: flex;
+    flex-direction: column;
+
+    gap: 12px;
+    margin-bottom: 24px;
+    width: 562px;
+}
+
+.inputForm input {
+    width: 562px;
+    height: 31px;
+
+    border: none;
+    border-bottom: 1px solid #000;
+    outline: none;
+}
+
+.inputForm ::placeholder {
+    color: #000;
+}
+
+button {
+    color: #ffff;
+    background: #000;
+
+    width: 176px;
+    padding: 12px 20px 12px 20px;
+    margin-bottom: 40px;
+}
+
+.buttonStore {
+    display: flex;
+    flex-direction: row;
+
+    gap: 8px;
+}
+
+.buttonStore img {
+    width: 121px;
+    height: 36px;
+}

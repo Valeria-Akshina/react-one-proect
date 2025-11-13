@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 32px;
+  max-width: 1376px;
 }
 
 .oneContainer {
@@ -16,23 +16,24 @@
 }
 
 .twoContainer{
-  margin-left: auto;
-  margin-top: auto;
-  padding-right: 62px;
+  position: relative;
 }
 
 .twoContainer a {
+  position: absolute;
+  right: -75px;
+  top: 95px;
+
   text-decoration: underline;
-  display: block;
-  width: 100%;
-  text-align: left;
+  font-size: 16px;
+  font-weight: 500;
+  white-space: nowrap;
 }
 
 .containerTwo{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 0 32px;
 }
 
 .containerTwoone{
@@ -41,10 +42,8 @@
 }
 
 .containerTwoone p {
-  font-family: Roboto;
   font-weight: 400;
   font-size: 20px;
-  line-height: 140%;
   color: #212529;
 }
 
